@@ -17,7 +17,6 @@ public:
         for (auto &h : hash) {
 
 			// Sum of (n - 1) series  n * (n - 1)/2            count += ((h.second) * (h.second - 1))/2;
-
         }
 
         return count;
